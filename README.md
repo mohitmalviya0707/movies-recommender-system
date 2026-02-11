@@ -44,21 +44,3 @@ Calculating cosine similarity between all movie vectors.
 Recommending top 5 most similar movies based on the similarity score.
 🖼️ Poster Integration
 Using the TMDB API, the system fetches movie posters for both the selected movie and its recommendations, enriching the interface with visual feedback.
-
-🚀 How to Run
-Installation
-
-git clone https://github.com/your-username/movie-recommendation-system.git
-cd movie-recommendation-system
-pip install -r requirements.txt
-Running the App
-
-streamlit run app.py
-Then open your browser and go to http://localhost:8501.
-
-💡 Usage
-Choose a movie from the dropdown list.
-Click on "Recommend".
-View the top 5 recommended movies with their posters.
-✅ Results
-The system successfully recommends the top 5 most similar movies based on content features and displays their posters using the TMDB API. This gives users both context and confidence in the recommendations.
